@@ -87,7 +87,7 @@ QtDesktopWindow::QtDesktopWindow(proto::SessionType session_type,
 {
     LOG(LS_INFO) << "Ctor";
 
-    setMinimumSize(400, 300);
+    setMinimumSize(320, 240);
 
     desktop_ = new DesktopWidget(this);
 
